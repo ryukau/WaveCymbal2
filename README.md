@@ -6,8 +6,8 @@ A banded waveguide synthesizer. Most of times, it sounds like dragging a bunch o
 # Signal Flow
 ![Figure of signal flow](./WaveCymbal2.svg)
 
-- Input is a impulse.
-- Exicitor is comb filters that transforms a impulse to more plausible contact sound.
+- Input is an impulse.
+- Exicitor is comb filters that transforms an impulse to more plausible contact sound.
 - 1D Wave is 1 dimentional wave equation with spring and damper terms.
 - BP is bandpass filter.
 - Karplus-Strong is plucked string sound generator.
