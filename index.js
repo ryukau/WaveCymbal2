@@ -256,15 +256,15 @@ var headingPluck = new Heading(divCymbalControls.element, 6, "Cymbal")
 var inputSeed = new NumberInput(divCymbalControls.element,
   "Seed", 0, 0, Math.floor(Number.MAX_SAFE_INTEGER / 2), 1, refresh)
 var inputCymbalCount = new NumberInput(divCymbalControls.element,
-  "CymbalCount", 3, 1, 8, 1, refresh)
+  "CymbalCount", 2, 1, 8, 1, refresh)
 var inputDecay = new NumberInput(divCymbalControls.element,
   "Decay", 1, 0, 4, 0.0001, refresh)
 var inputDx = new NumberInput(divCymbalControls.element,
-  "Dx", 1, 0, 3, 0.0001, refresh)
+  "Dx", 0.15, 0, 3, 0.0001, refresh)
 var inputDamping = new NumberInput(divCymbalControls.element,
-  "Damping", 4, 0, 32, 0.0001, refresh)
+  "Damping", 16, 0, 32, 0.0001, refresh)
 var inputStiffness = new NumberInput(divCymbalControls.element,
-  "Stiffness", 6, 3, 9, 0.0001, refresh)
+  "Stiffness", 8.27, 3, 9, 0.0001, refresh)
 var inputPulsePosition = new NumberInput(divCymbalControls.element,
   "PulsePosition", 0, 0, 1, 0.0001, refresh)
 var inputPulseWidth = new NumberInput(divCymbalControls.element,
